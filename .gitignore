@@ -1,5 +1,21 @@
+# Configurações locais do IntelliJ IDEA
+.idea/
+*.iml
+out/
+gen/
+
+# Arquivos compilados do Java
+*.class
+
+# Configurações do Eclipse
 .metadata/
 .recommenders/
-**/bin/
-*.class
-**/.settings/
+bin/
+.settings/
+.project
+.classpath
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+*txt
